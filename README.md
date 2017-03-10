@@ -8,3 +8,9 @@
     virtualenv $HOME/10.6
     source $HOME/10.6/bin/activate
     pip install -r requirements.txt
+
+### 02. make project and app
+
+    django-admin startproject liveactiondb
+    cd liveactiondb
+    ./manage.py startapp shows
