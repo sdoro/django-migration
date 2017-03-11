@@ -14,3 +14,9 @@
     django-admin startproject liveactiondb
     cd liveactiondb
     ./manage.py startapp shows
+
+### 03. using Travis CI to run an elementary test
+
+    # edit shows/tests.py
+    > ../.travis.yml
+    # edit ../.travis.yml
