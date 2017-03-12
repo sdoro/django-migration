@@ -20,3 +20,8 @@
     # edit shows/tests.py
     > ../.travis.yml
     # edit ../.travis.yml
+
+### 04. add coveralls
+
+    # edit ../.travis.yml
+

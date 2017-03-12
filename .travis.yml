@@ -4,6 +4,10 @@ python:
 # command to install dependencies
 install:
   - pip install -r requirements.txt
+  - pip install coveralls
 # command to run tests
 script: 
   - python liveactiondb/manage.py test shows
+  - coverage run --source=liveactiondb liveactiondb/manage.py test shows
+after_success:
+  coveralls
