@@ -25,12 +25,13 @@ SECRET_KEY = '%@59ox)iws5#(iv*h4+wyh9n%u16vbm(2ngp5+andp@ix4s7!y'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [u'django-migration-sdoro.c9users.io']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'shows.apps.ShowsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

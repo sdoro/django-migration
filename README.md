@@ -20,3 +20,18 @@
     # edit shows/tests.py
     > ../.travis.yml
     # edit ../.travis.yml
+
+### 04. makemigrations
+
+    # edit liveactiondb/settings.py
+    # edit shows/models.py (add Show)
+    ./manage.py makemigrations
+    ./manage.py migrate shows
+    # edit shows/models.py (add Episode)
+    ./manage.py makemigrations
+    ./manage.py migrate shows
+
+### 05. add db testing
+
+    # edit shows/tests.py
+    ./manage.py test shows
