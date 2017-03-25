@@ -1,3 +1,6 @@
+
+[![Coverage Status](https://coveralls.io/repos/github/sdoro/django-migration/badge.svg?branch=master)](https://coveralls.io/github/sdoro/django-migration?branch=master)
+
 # testing makemigrations and migrate
 
 ### 01. create & setup virtualenv
