@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/sdoro/django-migration.svg?branch=master)](https://travis-ci.org/sdoro/django-migration)
 
 [![Coverage Status](https://coveralls.io/repos/github/sdoro/django-migration/badge.svg?branch=master)](https://coveralls.io/github/sdoro/django-migration?branch=master)
 
